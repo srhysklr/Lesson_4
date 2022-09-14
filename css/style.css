@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit.woff") format("woff"), url("../fonts/Larsseit.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff") format("woff"), url("../fonts/Larsseit-Medium.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff") format("woff"), url("../fonts/Larsseit-Bold.woff2") format("woff2");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+* {
+	background-color: #F0FFF0	;
+	color: gray;
+	font-family: "roboto";
+   font-weight: 400;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header .header-title {
+	font-family: "Lato";
+	font-weight: 900;
+	font-size: 48px;
+	color: #e63946;
+}
+
+.header .header-list > li > a {
+	font-family: "Larsseit";
+	font-weight: 700;
+	color: #ffb703;
+}
+
+.header span {
+	font-family: "Larsseit";
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffd6ff;
+}
+
+.lato-talic {
+	font-family: "Lato";
+	font-weight: 700;
+	font-size: 24px;
+	font-style: italic;
+	color: #8338ec;
+}
+
+.main-title.larsseit-bold {
+	font-family: "Larsseit";
+	font-weight: 700;
+	font-size: 24px;
+	color: #eb5e28;
+}
+
+.main-avoid-div + p {
+	font-family: "Larsseit";
+	font-weight: 500;
+	font-size: 20px;
+	color: #ff7d00;
+}
+
+.main-text ~ ol>li {
+	font-family: "Lato";
+	font-weight: 900;
+	font-style: italic;
+	font-size: 20px;
+	color: #4cc9f0;
+}
